@@ -53,6 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background-color: white;
     border-radius: 6px;
     height: 316px;
@@ -67,6 +68,7 @@ body {
     font-size: 17px;
     border: 1px lightgray solid;
     border-radius: 6px;
+    width: 100%;
 }
 
 #login input::placeholder {
@@ -88,6 +90,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     height: 47px;
+    width: 100%;
 }
 
 /*forgot pasword button*/
@@ -100,4 +103,16 @@ body {
 #forgot-password:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+/* create new account */
+#new-account {
+    background-color:limegreen;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    height: 47px;
+    font-size: 17px;
+    font-weight: 600;
 }
