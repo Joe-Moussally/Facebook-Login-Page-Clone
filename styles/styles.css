@@ -21,9 +21,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 0 34px;
     align-items: center;
     width: 1020px;
-    min-width: 500px;
+
 }
 
 /*---------------HERO SECTION---------------*/
@@ -174,13 +175,16 @@ body {
 /*--------------media queries--------------*/
 @media screen and (max-width: 1074px){
     #hero p {
+        margin-right: auto;
         font-size: 24px;
         width: 360px;
         text-align: center;
     }
+    #hero {
+        width: fit-content;
+    }
 }
 
 @media screen and (min-width: 930px){
-    #hero p {
-    }
+    
 }
