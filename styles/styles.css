@@ -18,11 +18,12 @@ body {
 }
 
 #container {
+    border: 2px red solid;
     margin-top: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 980px;
+    width: 1020px;
     min-width: 500px;
 }
 
@@ -153,4 +154,20 @@ body {
 #new-account:not(:hover) { /*animation on hover*/
     transition: ease .3s;
     background-color:limegreen;
+}
+
+/*create a page button*/
+#login span>button {
+    margin-top: 30px;
+    border: none;
+    background-color: none;
+}
+
+#login span>button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#login span, #login span > button {
+    font-size: 14px;
 }
