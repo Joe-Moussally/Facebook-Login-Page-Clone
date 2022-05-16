@@ -78,3 +78,13 @@ body {
     border:1px solid rgb(0, 136, 255);
     box-shadow: 0 0 0px 2px#007bff1f;
 }
+
+#login-btn  {
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    height: 47px;
+}
