@@ -17,12 +17,13 @@ body {
     background-color: var(--bgcolor);
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 70vh;
 }
 
 #container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 980px;
     min-width: 500px;
 }
@@ -37,6 +38,7 @@ body {
 
 #hero > div {
     height: fit-content;
+
 }
 
 #hero img {
@@ -46,4 +48,20 @@ body {
 #hero p {
     font-size: 28px;
     color: #1c1e21;
+}
+
+/*---------------FORM SECTION---------------*/
+
+#login > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 6px;
+    height: 316px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
