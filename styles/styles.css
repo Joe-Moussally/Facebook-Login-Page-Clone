@@ -173,7 +173,7 @@ body {
 }
 
 /*--------------media queries--------------*/
-@media screen and (max-width: 1074px){
+@media screen and (width: 1074px) and (width:901){
     #hero p {
         margin-right: auto;
         font-size: 24px;
@@ -182,9 +182,15 @@ body {
     }
     #hero {
         width: fit-content;
+        padding-right: 77px;
     }
 }
 
-@media screen and (min-width: 930px){
-    
+@media screen and (max-width: 900px) {
+    #hero {
+    }
+
+    #login {
+        margin-top: 40px;
+    }
 }
