@@ -96,8 +96,18 @@ body {
     color: white;
     font-weight: 700;
     font-size: 20px;
-    height: 47px;
+    height: 50px;
     width: 100%;
+}
+
+#login-btn:hover { /*animation on hover*/
+    transition: ease .3s;
+    background-color:rgb(30, 109, 255);
+}
+
+#login-btn:not(:hover) { /*animation on hover*/
+    transition: ease .3s;
+    background-color:dodgerblue;
 }
 
 /*horizental line*/
