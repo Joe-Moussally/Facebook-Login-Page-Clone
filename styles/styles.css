@@ -79,6 +79,7 @@ body {
     box-shadow: 0 0 0px 2px#007bff1f;
 }
 
+/*login button*/
 #login-btn  {
     background-color: dodgerblue;
     border: none;
@@ -87,4 +88,16 @@ body {
     font-weight: 700;
     font-size: 20px;
     height: 47px;
+}
+
+/*forgot pasword button*/
+#forgot-password {
+    background: none;
+    border: none;
+    color: dodgerblue;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
