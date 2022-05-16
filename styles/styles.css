@@ -19,7 +19,6 @@ body {
 
 #container {
     border: 2px red solid;
-    margin-top: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -33,20 +32,19 @@ body {
     display: flex;
     flex-direction: column;
     width: 530px;
-}
-
-#hero > div {
-    height: fit-content;
-
+    align-items: center;
 }
 
 #hero img {
-    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 305px;
 }
 
 #hero p {
     font-size: 28px;
     color: #1c1e21;
+    margin-bottom: 42px;
 }
 
 /*---------------FORM SECTION---------------*/
@@ -170,4 +168,13 @@ body {
 
 #login span, #login span > button {
     font-size: 14px;
+}
+
+/*--------------media queries--------------*/
+@media screen and (max-width: 1074px){
+    #hero p {
+        font-size: 24px;
+        width: 360px;
+        text-align: center;
+    }
 }
