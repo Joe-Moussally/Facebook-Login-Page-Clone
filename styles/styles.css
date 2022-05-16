@@ -11,14 +11,32 @@
     --bgcolor: #f0f2f5; /*background color*/
 }
 
+/*---------------HERO SECTION---------------*/
+
 body {
     background-color: var(--bgcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#container {
+    display: flex;
+    width: 980px;
+    min-width: 500px;
 }
 
 /*---------------HERO SECTION---------------*/
 
 #hero {
     display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+
+#hero > div {
+    height: fit-content;
 }
 
 #hero img {
@@ -26,6 +44,6 @@ body {
 }
 
 #hero p {
-    font-size: 23px;
+    font-size: 28px;
     color: #1c1e21;
 }
