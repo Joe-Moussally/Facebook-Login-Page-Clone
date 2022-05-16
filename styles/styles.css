@@ -64,7 +64,14 @@ body {
     box-shadow: 0px 0px 7px rgba(128, 128, 128, 0.434);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+#login input {
+    height: 53px;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px lightgray solid;
+    border-radius: 6px;
+}
+
+input::placeholder {
+    color: rgb(161, 161, 161);
 }
