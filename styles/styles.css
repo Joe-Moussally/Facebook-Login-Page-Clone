@@ -117,7 +117,7 @@ body {
 }
 
 /*horizental line*/
-#hr {
+.hr {
     background-color: lightgray;
     height: 0.7px;
     width: 100%;
@@ -190,14 +190,15 @@ footer {
 
 footer > div {
     border: 1px blue solid;
-    width: 100%;
+    width: 70%;
 }
 
-footer ul {
+#footer-languages {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     border: 2px red solid;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
 }
