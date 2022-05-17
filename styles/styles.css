@@ -23,7 +23,7 @@ body {
     justify-content: space-around;
     padding: 0 34px;
     align-items: center;
-    width: 1020px;
+    width: 1200px;
 
 }
 
@@ -173,24 +173,19 @@ body {
 }
 
 /*--------------media queries--------------*/
-@media screen and (width: 1074px) and (width:901){
-    #hero p {
-        margin-right: auto;
-        font-size: 24px;
-        width: 360px;
+@media screen and (max-width: 993px) {
+    #hero > p {
         text-align: center;
+        font-size: 23px;
+        width: 400px;
     }
-    #hero {
-        width: fit-content;
-        padding-right: 77px;
-    }
-}
 
-@media screen and (max-width: 900px) {
-    #hero {
+    #hero > img {
+        margin: 0;
+        padding: 0;
     }
 
     #login {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 }
