@@ -185,19 +185,18 @@ footer {
     background-color: #fff;
     color: #737373;
     width: 100%;
-    font-size: 13px;
+    font-size: 12px;
+    padding: 20px 0;
 }
 
 footer > div {
-    border: 1px blue solid;
-    width: 70%;
+    width: 60%;
 }
 
 #footer-languages {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    border: 2px red solid;
     width: 100%;
     margin: 0 auto;
     align-items: center;
@@ -205,6 +204,11 @@ footer > div {
 
 footer li {
     margin: 0 5px;
+}
+
+footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 footer button {
@@ -222,6 +226,20 @@ footer button:hover {
     background-color: #73737336;
     cursor: pointer;
     transition: ease .5s;
+}
+
+#footer-settings {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer-settings > li {
+    margin: 5px 10px;
+}
+
+footer section {
+    margin: 20px 0 0 10px;
 }
 
 /*--------------media queries--------------*/
