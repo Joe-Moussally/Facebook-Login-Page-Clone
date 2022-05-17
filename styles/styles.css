@@ -180,10 +180,47 @@ body {
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     color: #737373;
     width: 100%;
+    font-size: 13px;
+}
 
+footer > div {
+    border: 1px blue solid;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    border: 2px red solid;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+footer li {
+    margin: 0 5px;
+}
+
+footer button {
+    background-color: #f0f2f5;
+    border:1px grey solid;
+    width: 32px;
+    height: 22px;
+    border-radius: 2px;
+    color: gray;
+    font-size: 20px;
+    transition: ease.5s;
+}
+
+footer button:hover {
+    background-color: #73737336;
+    cursor: pointer;
+    transition: ease .5s;
 }
 
 /*--------------media queries--------------*/
