@@ -25,6 +25,7 @@ body {
     padding: 0 34px;
     align-items: center;
     width: 1200px;
+    margin-bottom: 200px;
     
 
 }
@@ -179,7 +180,10 @@ body {
 footer {
     display: flex;
     flex-direction: column;
-    background-color: dodgerblue;
+    background-color: #fff;
+    color: #737373;
+    width: 100%;
+
 }
 
 /*--------------media queries--------------*/
