@@ -21,13 +21,12 @@ body {
 #container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 0 34px;
     align-items: center;
-    width: 1200px;
+    width: 100%;
     margin-bottom: 200px;
-    
-
+    border: 2px red solid;
 }
 
 /*---------------HERO SECTION---------------*/
@@ -243,7 +242,7 @@ footer section {
 }
 
 /*--------------media queries--------------*/
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 998px) {
     #hero > p {
         text-align: center;
         font-size: 23px;
@@ -260,7 +259,6 @@ footer section {
         margin-top: 20px;
     }
     #container {
-        padding: 0;
-        max-width: 10px;
+        justify-content: center;
     }
 }
